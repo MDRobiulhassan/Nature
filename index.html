@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+
+<body>
+
+    <div class="main">
+
+        <div class="header">
+
+            <img src="png-clipart-airplane-aircraft-logo-airplane-blue-logo-thumbnail.png" alt="">
+            <h1>TRAVELLER'S</h1>
+    
+        </div>
+
+        <div class="nav-bar">
+           
+            <div class="nav-links" id="nav-links">
+                <i class="fa fa-close" onclick="closeMenu()"></i>
+                <ul>
+                    <a href="#bd"><li>BANGLADESH</li></a>
+                    <a href="#ind"><li>INDIA</li></a>
+                    <a href="#mld"><li>MALDIVES</li></a>
+                    <a href="#nep"><li>NEPAL</li></a>                   
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </div>
+
+        <p class="para">Life is a journey <br> not a destination</p>
+
+        <div class="collection">
+
+            <div class="hero">
+                <div class="bd" id="bd">
+                    <a href="https://beautifulbangladesh.gov.bd/" target="_blank">
+                        <img src="Khagrachari-768x484.png" alt="">
+                        <h2>BANGLADESH</h2>
+                    </a>
+                    <p>Bangladesh, country of south-central Asia, located in the delta of the Padma (Ganges [Ganga]) and Jamuna (Brahmaputra) rivers in the northeastern part of the Indian subcontinent.</p>
+                </div>
+    
+                <div class="bd" id="ind">
+                    <a href="https://www.incredibleindia.org/content/incredible-india-v2/en.html" target="_blank">
+                        <img src="header2-1.jpg" alt="">
+                        <h2>INDIA</h2>
+                    </a>
+                    <p>India,officially the Republic of India,is a country in South Asia.It is the seventh-largest country by area,the second-most populous country,the most populous democracy in the world.</p>
+                </div>
+    
+                <div class="bd" id="mld">
+                    <a href="https://www.tripadvisor.in/Tourism-g293953-Maldives-Vacations.html" target="_blank">
+                        <img src="Places-To-Visit-In-Maldives_11th-jun.jpg" alt="">
+                    <h2>MALDIVES</h2>
+                    </a>
+                <p>Maldives,officially the Republic of Maldives,is an archipelagic country in the Indian subcontinent of Asia,situated in the Indian Ocean and about 750 kilometres from the mainland.</p>
+                </div>
+    
+                <div class="bd" id="nep">
+                    <a href="https://www.tripadvisor.in/Tourism-g293889-Nepal-Vacations.html" target="_blank">
+                        <img src="mount_everest_range.jpg" alt="">
+                        <h2>NEPAL</h2>
+                    </a>
+<p>Nepal,officially the Federal Democratic Republic of Nepal,is a landlocked country in South Asia.It is mainly situated in the Himalayas includes parts of the Indo-Gangetic Plain,bordering </p>               
+ </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <script>
+        var show = document.getElementById("nav-links");
+        function showMenu(){
+            show.style.right = "0"
+        }
+
+        function closeMenu(){
+            show.style.right = "-280px"
+        }
+    </script>
+
+</body>
+
+</html>

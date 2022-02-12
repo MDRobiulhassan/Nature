@@ -1,0 +1,227 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.main{
+    height: 657px;
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(rsz_pexels-sassu-anas-732629.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow-x: hidden;
+    position: relative;
+}
+
+.header{
+    padding-top: 35px;
+    padding-left: 40px;
+}
+
+.header img{
+    height: 55px;
+    width: 55px;
+    border-radius: 1000px;
+    float: left;
+}
+
+h1{
+    
+    font-size: 3rem;
+    padding-left: 8px;
+    color: white;
+    float: left;
+}
+
+.nav-bar i{
+    display: none;
+}
+
+.nav-links{
+    padding-right:40px ;
+    flex: 1;
+}
+
+.nav-links ul{
+    float: right;
+    display: inline;
+}
+
+.nav-links ul li{
+    text-transform: uppercase;
+    padding: 15px;
+    list-style: none;
+    display: inline-block;
+    
+}
+
+.nav-links a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.3rem;
+}
+
+.nav-links a:hover{
+    color: teal;
+    transition: 1s;
+    }
+
+.para{
+    color: white;
+    font-size: 3rem;
+    position: absolute;
+    top: 30%;
+    left: 25%;
+    transform: translate(-30%,-25%);
+}
+
+.collection{
+    padding-top: 280px;
+    
+}
+
+.hero{
+    display: flex;
+    justify-content: center;
+}
+
+.bd{
+    height: 150px;
+    width: 300px;
+    padding: 0px 10px 0;
+}
+
+.bd h2{
+    text-align: center;
+    font-size: 2rem;
+    color: #045694;
+}
+
+.bd img{
+    height: 150px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+.bd p{
+    font-size: 1.2rem;
+    text-align: justify;
+    color: whitesmoke;
+}
+
+.bd a{
+    text-decoration: none;
+}
+
+#bd h2:hover{
+    font-size: 2.2rem;
+    color: green;
+    transition: 1s;
+}
+
+#ind h2:hover{
+    font-size: 2.2rem;
+    color: orangered;
+    transition: 1s;
+}
+
+#mld h2:hover{
+    font-size: 2.2rem;
+    color: green;
+    transition: 1s;
+}
+
+#nep h2:hover{
+    font-size: 2.2rem;
+    color: red;
+    transition: 1s;
+}
+
+@media (max-width:700px) {
+
+    *{
+        padding: 0;
+        margin: 0;
+    }
+
+    .main{
+        height: 700px;
+        background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(rsz_pexels-sassu-anas-732629.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        overflow-x: hidden;
+        position: relative;
+    }
+
+    .header{
+        padding-top: 20px;
+        padding-left: 20px;
+    }
+
+    h1{
+        font-size: 1.5rem;
+        padding-top: 12px;
+    }
+    
+    .nav-bar{
+        padding: 10px 30px;
+    }
+
+    .fa-bars{
+        position: absolute;
+        right: 20px;
+        top: 15px;
+    }
+
+    .nav-bar .fa{
+        display: block;
+        color: #fff;
+        padding: 15px 25px;
+        font-size: 25px;
+        cursor: pointer;
+    }
+
+    .nav-links{
+        height: 100vh;
+        width: 200px;
+        background: #045694;
+        top: 0;
+        right: -55px;
+        position: absolute;
+        text-align: left;
+        z-index: 2;
+        transition: 0.5s;
+        padding-left: 25px;
+    }
+
+    .nav-links a:hover{
+        color: orangered;
+        transition: 1s;
+        }
+    
+    .para{
+        width: 100%;
+        margin: auto;
+        text-align: center;
+        font-size: 2.2rem;
+    }
+
+    .collection{
+        width: 100%;
+    }
+
+    .hero{
+        display: block;
+        width: 90%;
+        margin: auto;
+        text-align: center;
+        
+    }
+
+    .bd{
+        
+        padding-bottom: 210px;
+    }
+}
